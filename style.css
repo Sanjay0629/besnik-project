@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.image{
+    background-image: url(./images/background.png);
+    background-size: 100% 100%;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.header-wrapper h2{
+    font-family: "Lekton", monospace;
+    font-weight: 700;
+    font-size: 34px;
+    color: white;
+}
+.header-wrapper nav{
+    display: flex;
+    gap: 25px;
+}
+.header-wrapper nav a{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.main{
+    margin: 80px 0 30px 0;
+}
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.main-wrapper h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 94px;
+}
+.main-wrapper h1 span{
+    display: block;
+}
+.main-wrapper p{
+    margin: 20px 0px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+.main-wrapper p span{
+    display: block;
+}
+.request-button{
+    margin: 30px 0 100px 0;
+}
+.request-button a{
+    background-color: #231A36;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 100px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.company-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.company-wrapper >p {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #B2B7BE;
+}
+.company-wrapper nav{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+@media only screen and (max-width: 700px) {
+    .header-wrapper {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .company-wrapper > nav {
+        gap: 20px;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .main-wrapper p > span {
+        display: inline;
+    }
+}
