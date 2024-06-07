@@ -108,3 +108,65 @@ a{
         display: inline;
     }
 }
+.marketing{
+    background-color: #EBEBEB;
+}
+.marketing-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.marketing-header h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    padding-top: 30px;
+    font-weight: 600;
+}
+.marketing-header p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #426666;
+
+}
+.marketing-header p span{
+    display: block;
+}
+.marketing-main{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.marketing-main-text p:nth-child(1){
+    color: #414141;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.marketing-main-text h3{
+    color: #1B1BEB;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px ;
+    font-weight: 600;
+}
+.marketing-main-text p:last-child{
+    color: #426666;
+    font-family: "Inter", sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.marketing-main-text p span{
+    display: block;
+}
+.learn-more-button{
+    margin-top: 20px;
+}
+.learn-more-button a{
+    color: #42424A;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
